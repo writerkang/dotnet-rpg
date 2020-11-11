@@ -8,11 +8,14 @@
       <e p="AutoMapperProfile.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
+        <e p="AuthController.cs" t="Include" />
         <e p="CharacterController.cs" t="Include" />
         <e p="WeatherForecastController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
+        <e p="AuthRepository.cs" t="Include" />
         <e p="DataContext.cs" t="Include" />
+        <e p="IAuthRepository.cs" t="Include" />
       </e>
       <e p="dotnet-rpg.csproj" t="IncludeRecursive" />
       <e p="Dtos" t="Include">
@@ -21,16 +24,24 @@
           <e p="GetCharacterDto.cs" t="Include" />
           <e p="UpdateCharacterDto.cs" t="Include" />
         </e>
+        <e p="User" t="Include">
+          <e p="UserRegisterDto.cs" t="Include" />
+        </e>
       </e>
       <e p="Migrations" t="Include">
         <e p="20201111070940_InitialCreate.cs" t="Include" />
         <e p="20201111070940_InitialCreate.Designer.cs" t="Include" />
+        <e p="20201111081121_User.cs" t="Include" />
+        <e p="20201111081121_User.Designer.cs" t="Include" />
+        <e p="20201111081611_UserCharacterRelation.cs" t="Include" />
+        <e p="20201111081611_UserCharacterRelation.Designer.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="Character.cs" t="Include" />
         <e p="RpgClass.cs" t="Include" />
         <e p="ServiceResponse.cs" t="Include" />
+        <e p="User.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
