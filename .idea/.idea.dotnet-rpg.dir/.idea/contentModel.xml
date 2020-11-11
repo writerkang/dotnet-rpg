@@ -11,6 +11,9 @@
         <e p="CharacterController.cs" t="Include" />
         <e p="WeatherForecastController.cs" t="Include" />
       </e>
+      <e p="Data" t="Include">
+        <e p="DataContext.cs" t="Include" />
+      </e>
       <e p="dotnet-rpg.csproj" t="IncludeRecursive" />
       <e p="Dtos" t="Include">
         <e p="Character" t="Include">
@@ -18,6 +21,11 @@
           <e p="GetCharacterDto.cs" t="Include" />
           <e p="UpdateCharacterDto.cs" t="Include" />
         </e>
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20201111070940_InitialCreate.cs" t="Include" />
+        <e p="20201111070940_InitialCreate.Designer.cs" t="Include" />
+        <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="Character.cs" t="Include" />
