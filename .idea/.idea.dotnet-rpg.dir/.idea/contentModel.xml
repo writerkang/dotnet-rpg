@@ -25,6 +25,7 @@
           <e p="UpdateCharacterDto.cs" t="Include" />
         </e>
         <e p="User" t="Include">
+          <e p="UserLoginDto.cs" t="Include" />
           <e p="UserRegisterDto.cs" t="Include" />
         </e>
       </e>
