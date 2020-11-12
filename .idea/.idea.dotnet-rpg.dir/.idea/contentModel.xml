@@ -11,6 +11,7 @@
         <e p="AuthController.cs" t="Include" />
         <e p="CharacterController.cs" t="Include" />
         <e p="CharacterSkillController.cs" t="Include" />
+        <e p="FightController.cs" t="Include" />
         <e p="WeaponController.cs" t="Include" />
         <e p="WeatherForecastController.cs" t="Include" />
       </e>
@@ -28,6 +29,11 @@
         </e>
         <e p="CharacterSkill" t="Include">
           <e p="AddCharacterSkillDto.cs" t="Include" />
+        </e>
+        <e p="Fight" t="Include">
+          <e p="AttackResultDto.cs" t="Include" />
+          <e p="SkillAttackDto.cs" t="Include" />
+          <e p="WeaponAttackDto.cs" t="Include" />
         </e>
         <e p="Skill" t="Include">
           <e p="GetSkillDto.cs" t="Include" />
@@ -52,6 +58,8 @@
         <e p="20201112052421_Weapon.Designer.cs" t="Include" />
         <e p="20201112061551_Skill.cs" t="Include" />
         <e p="20201112061551_Skill.Designer.cs" t="Include" />
+        <e p="20201112072919_FightProperties.cs" t="Include" />
+        <e p="20201112072919_FightProperties.Designer.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
@@ -83,6 +91,10 @@
         <e p="CharacterSkillService" t="Include">
           <e p="CharacterSkillService.cs" t="Include" />
           <e p="ICharacterSkillService.cs" t="Include" />
+        </e>
+        <e p="FightService" t="Include">
+          <e p="FightService.cs" t="Include" />
+          <e p="IFightService.cs" t="Include" />
         </e>
         <e p="WeaponService" t="Include">
           <e p="IWeaponService.cs" t="Include" />
