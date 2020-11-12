@@ -10,6 +10,8 @@
       <e p="Controllers" t="Include">
         <e p="AuthController.cs" t="Include" />
         <e p="CharacterController.cs" t="Include" />
+        <e p="CharacterSkillController.cs" t="Include" />
+        <e p="WeaponController.cs" t="Include" />
         <e p="WeatherForecastController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
@@ -24,9 +26,19 @@
           <e p="GetCharacterDto.cs" t="Include" />
           <e p="UpdateCharacterDto.cs" t="Include" />
         </e>
+        <e p="CharacterSkill" t="Include">
+          <e p="AddCharacterSkillDto.cs" t="Include" />
+        </e>
+        <e p="Skill" t="Include">
+          <e p="GetSkillDto.cs" t="Include" />
+        </e>
         <e p="User" t="Include">
           <e p="UserLoginDto.cs" t="Include" />
           <e p="UserRegisterDto.cs" t="Include" />
+        </e>
+        <e p="Weapon" t="Include">
+          <e p="AddWeaponDto.cs" t="Include" />
+          <e p="GetWeaponDto.cs" t="Include" />
         </e>
       </e>
       <e p="Migrations" t="Include">
@@ -36,13 +48,20 @@
         <e p="20201111081121_User.Designer.cs" t="Include" />
         <e p="20201111081611_UserCharacterRelation.cs" t="Include" />
         <e p="20201111081611_UserCharacterRelation.Designer.cs" t="Include" />
+        <e p="20201112052421_Weapon.cs" t="Include" />
+        <e p="20201112052421_Weapon.Designer.cs" t="Include" />
+        <e p="20201112061551_Skill.cs" t="Include" />
+        <e p="20201112061551_Skill.Designer.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="Character.cs" t="Include" />
+        <e p="CharacterSkill.cs" t="Include" />
         <e p="RpgClass.cs" t="Include" />
         <e p="ServiceResponse.cs" t="Include" />
+        <e p="Skill.cs" t="Include" />
         <e p="User.cs" t="Include" />
+        <e p="Weapon.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -60,6 +79,14 @@
         <e p="CharacterService" t="Include">
           <e p="CharacterService.cs" t="Include" />
           <e p="ICharacterService.cs" t="Include" />
+        </e>
+        <e p="CharacterSkillService" t="Include">
+          <e p="CharacterSkillService.cs" t="Include" />
+          <e p="ICharacterSkillService.cs" t="Include" />
+        </e>
+        <e p="WeaponService" t="Include">
+          <e p="IWeaponService.cs" t="Include" />
+          <e p="WeaponService.cs" t="Include" />
         </e>
       </e>
       <e p="Startup.cs" t="Include" />
