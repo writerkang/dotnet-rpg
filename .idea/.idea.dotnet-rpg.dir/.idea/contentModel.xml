@@ -63,6 +63,8 @@
         <e p="20201112061551_Skill.Designer.cs" t="Include" />
         <e p="20201112072919_FightProperties.cs" t="Include" />
         <e p="20201112072919_FightProperties.Designer.cs" t="Include" />
+        <e p="20201113021855_Role.cs" t="Include" />
+        <e p="20201113021855_Role.Designer.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
