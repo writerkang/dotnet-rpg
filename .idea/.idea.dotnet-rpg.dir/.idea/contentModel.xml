@@ -32,6 +32,9 @@
         </e>
         <e p="Fight" t="Include">
           <e p="AttackResultDto.cs" t="Include" />
+          <e p="FightRequestDto.cs" t="Include" />
+          <e p="FightResultDto.cs" t="Include" />
+          <e p="HighScoreDto.cs" t="Include" />
           <e p="SkillAttackDto.cs" t="Include" />
           <e p="WeaponAttackDto.cs" t="Include" />
         </e>

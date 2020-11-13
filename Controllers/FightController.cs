@@ -16,6 +16,12 @@ namespace dotnet_rpg.Controllers
             _fightService = fightService;
         }
         
+        [HttpPost]
+        public async Task<IActionResult> Fight(FightRequestDto request)
+        {
+            return Ok(await _fightService.Fight(request));
+        }
+        
         [HttpPost("Weapon")]
         public async Task<IActionResult> WeaponAttack(WeaponAttackDto request)
         {
@@ -26,6 +32,11 @@ namespace dotnet_rpg.Controllers
         public async Task<IActionResult> SkillAttack(SkillAttackDto request)
         {
             return Ok(await _fightService.SkillAttack(request));
+        }
+
+        public async Task<IActionResult> GetHighScore()
+        {
+            return Ok(await _fightService.GetHighScore());
         }
     }
 }
